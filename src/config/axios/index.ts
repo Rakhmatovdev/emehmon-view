@@ -3,7 +3,7 @@ import { notification } from "antd";
 import axios,{AxiosError} from "axios";
 
 const authApi = axios.create({
-  baseURL: "http://immigrant.jprq.site/api/v1",
+  baseURL: "https://immigrant.jprq.site/api/v1",
   timeout: 10000,
 });
 
